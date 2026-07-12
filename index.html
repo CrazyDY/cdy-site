@@ -91,7 +91,7 @@
     </section>
 
     <section id="blog" class="page section-wrap page-top">
-      <div class="page-title-row"><div><p class="eyebrow">WRITING</p><h1>技术博客</h1><p>记录架构实践、数据工程与 AI 应用探索。</p></div><button id="newPost" class="primary">+ 发布文章</button></div>
+      <div class="page-title-row"><div><p class="eyebrow">WRITING</p><h1>技术博客</h1><p>记录架构实践、数据工程与 AI 应用探索。</p></div></div>
       <div class="blog-tools"><input id="blogSearch" type="search" placeholder="搜索文章、标签或内容…"><div id="tagFilters" class="filter-tags"></div></div>
       <div id="blogList" class="blog-grid"></div>
       <div id="emptyBlog" class="empty hidden"><b>没有找到文章</b><p>换个关键词，或发布第一篇文章。</p></div>
@@ -99,24 +99,6 @@
 
     <section id="post" class="page section-wrap page-top"><button id="backBlog" class="text-button">← 返回博客</button><article id="postDetail" class="post-detail"></article></section>
 
-    <section id="editor" class="page editor-page">
-      <form id="postForm" class="editor-shell">
-        <header class="editor-header">
-          <div><button type="button" id="cancelPost" class="text-button">← 返回博客</button><h1 id="editorTitle">发布新文章</h1></div>
-          <div class="editor-actions"><span id="saveState">内容仅保存在当前浏览器</span><button type="submit" class="primary">保存并发布</button></div>
-        </header>
-        <input id="postId" type="hidden">
-        <div class="post-fields">
-          <label>文章标题<input id="postTitle" required maxlength="80" placeholder="输入一个清晰的标题"></label>
-          <label>文章摘要<textarea id="postSummary" required rows="2" maxlength="180" placeholder="用一两句话介绍文章"></textarea></label>
-          <label>标签<input id="postTags" placeholder="大数据, 架构, AI（使用逗号分隔）"></label>
-        </div>
-        <div class="markdown-workspace">
-          <section class="editor-pane"><div class="pane-title"><b>Markdown</b><span id="wordCount">0 字</span></div><textarea id="postContent" required spellcheck="false" placeholder="# 小标题&#10;&#10;在这里开始写作…"></textarea></section>
-          <section class="preview-pane"><div class="pane-title"><b>实时预览</b><span>PREVIEW</span></div><article id="livePreview" class="post-body preview-content"><p class="preview-placeholder">预览内容将在这里实时呈现。</p></article></section>
-        </div>
-      </form>
-    </section>
   </main>
 
   <footer><span>© <span id="year"></span> 陈德宇</span><span>Build systems. Share knowledge.</span></footer>
