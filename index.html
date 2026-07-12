@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="陈德宇的个人网站，分享技术经历、项目实践与博客文章。">
+  <title>陈德宇 · 技术负责人 / 高级架构师</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="返回首页"><span>CDY</span><b>陈德宇</b></a>
+    <nav aria-label="主导航">
+      <button class="nav-link active" data-page="home">首页</button>
+      <button class="nav-link" data-page="resume">个人简历</button>
+      <button class="nav-link" data-page="blog">技术博客</button>
+    </nav>
+    <button class="primary small" data-page="resume">查看简历</button>
+  </header>
+
+  <main>
+    <section id="home" class="page active">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">HELLO, I'M CHEN DEYU</p>
+          <h1>让复杂业务，成为<br><em>清晰可靠的系统。</em></h1>
+          <p class="hero-desc">技术负责人 / 高级架构师。11 年工作经验，专注企业级数据平台、大数据架构与 AI 应用工程化。</p>
+          <div class="hero-actions">
+            <button class="primary" data-page="resume">了解我的经历 <span>→</span></button>
+            <button class="ghost" data-page="blog">阅读技术博客</button>
+          </div>
+          <div class="stats">
+            <div><strong>11<sup>+</sup></strong><span>年工作经验</span></div>
+            <div><strong>PB</strong><span>级平台建设</span></div>
+            <div><strong>10<sup>亿+</sup></strong><span>日增数据量</span></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orb"></div><div class="grid-card code-card"><span>ARCHITECTURE</span><b>Data × AI</b><i>Enterprise systems</i></div>
+          <div class="grid-card role-card"><small>CURRENT FOCUS</small><b>数据平台架构</b><b>AI 应用工程化</b></div>
+          <div class="dot dot-a"></div><div class="dot dot-b"></div>
+        </div>
+      </div>
+      <div class="expertise section-wrap">
+        <div class="section-heading"><p>WHAT I DO</p><h2>把经验沉淀为<br>可持续演进的能力</h2></div>
+        <div class="expertise-grid">
+          <article><span>01</span><h3>企业级系统架构</h3><p>从需求、方案、研发到交付，构建高可用、可扩展的复杂业务系统。</p></article>
+          <article><span>02</span><h3>大数据平台架构</h3><p>覆盖离线与实时计算、数据仓库、数据治理及 PB 级存储体系。</p></article>
+          <article><span>03</span><h3>AI 应用工程化</h3><p>推动 LLM、RAG、AI Agent 从概念验证走向稳定的业务场景。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="page section-wrap page-top">
+      <div class="page-title-row">
+        <div><p class="eyebrow">RESUME</p><h1>个人简历</h1><p>点击“编辑简历”后，直接修改页面中的文字，保存后会保留在当前浏览器。</p></div>
+        <div class="toolbar">
+          <button id="editResume" class="primary">编辑简历</button>
+          <button id="saveResume" class="primary hidden">保存修改</button>
+          <button id="cancelEdit" class="ghost hidden">取消</button>
+          <div class="export-menu">
+            <button id="exportToggle" class="ghost">导出 ▾</button>
+            <div id="exportOptions" class="export-options hidden">
+              <button data-export="html">HTML 文件</button><button data-export="markdown">Markdown 文件</button><button data-export="pdf">PDF 文件</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="editNotice" class="edit-notice hidden">编辑模式已开启：点击任意文字即可修改。完成后请保存。</div>
+      <article id="resumeDocument" class="resume-paper">
+        <header class="resume-head"><div><h1>陈德宇</h1><p class="en-name">CHEN DEYU</p><h2>技术负责人 / 高级架构师</h2><p>11年工作经验，其中8年软件研发经验，具备业务运营与技术研发复合背景｜大数据架构｜AI应用工程化</p></div><div class="resume-contact">deyu.chen@foxmail.com<br>湖北武汉</div></header>
+        <div class="resume-layout">
+          <aside>
+            <section><h3>基本信息</h3><dl><dt>学历</dt><dd>本科</dd><dt>毕业院校</dt><dd>武汉轻工大学</dd><dt>所在地</dt><dd>武汉</dd><dt>工作经验</dt><dd>11年</dd></dl></section>
+            <section><h3>职业方向</h3><ul><li>技术负责人</li><li>高级架构师</li><li>数据平台架构师</li><li>企业数字化架构师</li><li>AI应用架构师</li></ul></section>
+            <section><h3>技术标签</h3><div class="tags"><span>Java</span><span>Python</span><span>Scala</span><span>SQL</span><span>Spring Cloud</span><span>Spark</span><span>Flink</span><span>Kafka</span><span>Hive</span><span>Doris</span><span>NebulaGraph</span><span>Redis</span><span>Kubernetes</span><span>LLM</span><span>RAG</span><span>AI Agent</span></div></section>
+          </aside>
+          <div class="resume-main">
+            <section><h2>个人简介</h2><p>现任华为海思数据平台技术负责人，具备复杂业务系统从需求分析、架构设计、核心研发到交付管理的完整经验。长期负责企业级数据平台、大数据分析平台、知识图谱及智能应用建设，具备PB级数据处理、实时计算、分布式系统设计和AI应用落地经验。</p></section>
+            <section><h2>核心能力</h2><div class="capabilities"><div><b>企业级系统架构</b><p>覆盖需求、方案、开发与交付全流程；熟悉微服务、分布式、高可用设计。</p></div><div><b>大数据平台架构</b><p>PB级平台建设经验，熟悉离线/实时计算、数仓及治理体系。</p></div><div><b>AI应用工程化</b><p>熟悉LLM应用、RAG知识库、AI Agent及业务场景融合。</p></div><div><b>技术管理与交付</b><p>负责任务拆解、方案评审、过程管理与质量控制。</p></div></div></section>
+            <section><h2>工作经历</h2>
+              <div class="job"><div class="job-title"><b>华为海思（OD）</b><time>2022.06 - 至今</time></div><h4>数据平台技术负责人</h4><p>负责光电业务数据平台建设，承担需求分析、技术方案、架构规划、核心技术攻关及研发交付管理。</p><div class="project"><b>光电产品数据底座</b><ul><li>主导采集、存储、计算及服务体系整体架构设计</li><li>日增10亿+、PB级规模；Hive / Spark / Flink / Kafka / DWS</li></ul></div><div class="project"><b>生产质量智能预警与生命周期追溯</b><ul><li>推动异常检测算法工程化，建设质量趋势分析能力</li><li>知识图谱规模10亿+节点、20亿+关系，5跳查询秒级响应</li></ul></div></div>
+              <div class="job"><div class="job-title"><b>美的集团</b><time>2021.09 - 2022.06</time></div><h4>物流大数据平台开发工程师</h4><p>参与集团物流数字化平台建设，负责实时计算平台和数据分析体系开发。</p></div>
+              <div class="job"><div class="job-title"><b>北京亚鸿世纪</b><time>2019.05 - 2021.09</time></div><h4>大数据平台开发工程师</h4><p>参与工信部 / 通研院基础资源数据平台及知识图谱建设。</p></div>
+              <div class="job"><div class="job-title"><b>万学教育</b><time>2015.07 - 2018.12</time></div><h4>区域运营负责人 / 市场运营负责人</h4><p>负责高校考研市场拓展、校园营销团队管理、用户增长与区域业务目标达成。</p></div>
+            </section>
+            <section><h2>教育经历</h2><div class="job-title"><b>武汉轻工大学</b><span>本科 · 环境科学</span></div></section>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="blog" class="page section-wrap page-top">
+      <div class="page-title-row"><div><p class="eyebrow">WRITING</p><h1>技术博客</h1><p>记录架构实践、数据工程与 AI 应用探索。</p></div><button id="newPost" class="primary">+ 发布文章</button></div>
+      <div class="blog-tools"><input id="blogSearch" type="search" placeholder="搜索文章、标签或内容…"><div id="tagFilters" class="filter-tags"></div></div>
+      <div id="blogList" class="blog-grid"></div>
+      <div id="emptyBlog" class="empty hidden"><b>没有找到文章</b><p>换个关键词，或发布第一篇文章。</p></div>
+    </section>
+
+    <section id="post" class="page section-wrap page-top"><button id="backBlog" class="text-button">← 返回博客</button><article id="postDetail" class="post-detail"></article></section>
+
+    <section id="editor" class="page editor-page">
+      <form id="postForm" class="editor-shell">
+        <header class="editor-header">
+          <div><button type="button" id="cancelPost" class="text-button">← 返回博客</button><h1 id="editorTitle">发布新文章</h1></div>
+          <div class="editor-actions"><span id="saveState">内容仅保存在当前浏览器</span><button type="submit" class="primary">保存并发布</button></div>
+        </header>
+        <input id="postId" type="hidden">
+        <div class="post-fields">
+          <label>文章标题<input id="postTitle" required maxlength="80" placeholder="输入一个清晰的标题"></label>
+          <label>文章摘要<textarea id="postSummary" required rows="2" maxlength="180" placeholder="用一两句话介绍文章"></textarea></label>
+          <label>标签<input id="postTags" placeholder="大数据, 架构, AI（使用逗号分隔）"></label>
+        </div>
+        <div class="markdown-workspace">
+          <section class="editor-pane"><div class="pane-title"><b>Markdown</b><span id="wordCount">0 字</span></div><textarea id="postContent" required spellcheck="false" placeholder="# 小标题&#10;&#10;在这里开始写作…"></textarea></section>
+          <section class="preview-pane"><div class="pane-title"><b>实时预览</b><span>PREVIEW</span></div><article id="livePreview" class="post-body preview-content"><p class="preview-placeholder">预览内容将在这里实时呈现。</p></article></section>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> 陈德宇</span><span>Build systems. Share knowledge.</span></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
