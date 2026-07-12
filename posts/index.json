@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "pb-data-platform-tradeoffs",
+    "file": "pb-data-platform-tradeoffs.md",
+    "title": "从 PB 级数据平台到业务价值：架构设计中的三个取舍",
+    "summary": "数据平台的价值不在组件数量，而在稳定、成本和业务响应速度之间找到平衡。",
+    "date": "2026-07-08",
+    "tags": ["数据架构", "大数据"]
+  },
+  {
+    "slug": "rag-production-observability",
+    "file": "rag-production-observability.md",
+    "title": "让 RAG 真正走进生产：从召回率到可观测性",
+    "summary": "分享企业知识库从验证到生产落地时，检索、评估和工程治理的关键环节。",
+    "date": "2026-06-21",
+    "tags": ["AI", "RAG"]
+  },
+  {
+    "slug": "architecture-review",
+    "file": "architecture-review.md",
+    "title": "技术负责人如何做好方案评审",
+    "summary": "方案评审不是找错，而是帮助团队更早地发现约束、对齐目标并降低交付风险。",
+    "date": "2026-05-30",
+    "tags": ["技术管理", "架构"]
+  }
+]
