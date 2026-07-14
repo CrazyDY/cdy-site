@@ -1,6 +1,6 @@
 这是一个**可直接运行的 Python 版 mini-vLLM 模拟器**：
 
-[mini_vllm.py](mini_vllm.py)
+[mini_vllm.py](https://gist.github.com/CrazyDY/837253791216cff7d23b69ae3f17e9b7)
 
 我已经实际跑过 100 个并发 Agent 的模拟，最终结果：
 
