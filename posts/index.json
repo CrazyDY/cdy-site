@@ -22,5 +22,13 @@
     "summary": "方案评审不是找错，而是帮助团队更早地发现约束、对齐目标并降低交付风险。",
     "date": "2026-05-30",
     "tags": ["技术管理", "架构"]
+  },
+  {
+    "slug": "一个可直接运行的 Python 版 mini-vLLM 模拟器",
+    "file": "一个可直接运行的 Python 版 mini-vLLM 模拟器.md",
+    "title": "一个可直接运行的 Python 版 mini-vLLM 模拟",
+    "summary": "一个用于理解 vLLM 核心机制的教学模拟器。",
+    "date": "2026-07-14",
+    "tags": ["LLM", "推理服务"]
   }
 ]
